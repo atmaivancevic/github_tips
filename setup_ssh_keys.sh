@@ -22,8 +22,7 @@ ls -al ~/.ssh
 ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
 
 # Add the SSH public key to github
-
-# On github, locate the settings for your account and find the "SSH and GPG keys" section
+# I.e. on github, locate the settings for your account and find the "SSH and GPG keys" section
 # Click "New SSH key"
 # Give it an informative name (e.g. fiji server)
 # And paste the key into the box (note: you can find your key by doing 'cat id_rsa.pub' in your terminal)
